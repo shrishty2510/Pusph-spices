@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Pusph-spices/static/css/main.7ee49852.css",
-    "main.js": "/Pusph-spices/static/js/main.65019759.js",
+    "main.css": "/Pusph-spices/static/css/main.5d8a14c3.css",
+    "main.js": "/Pusph-spices/static/js/main.ebbfd679.js",
     "static/js/787.bea028de.chunk.js": "/Pusph-spices/static/js/787.bea028de.chunk.js",
     "static/media/spice_booster_masala.png": "/Pusph-spices/static/media/spice_booster_masala.c88f68779e06560459a8.png",
     "static/media/pasta_masala.png": "/Pusph-spices/static/media/pasta_masala.ea6863a95f99398e03f8.png",
@@ -23,12 +23,12 @@
     "static/media/ctc_raw_mango.png": "/Pusph-spices/static/media/ctc_raw_mango.30bdd52e7767149d1faf.png",
     "static/media/ctc_coriander_powder.png": "/Pusph-spices/static/media/ctc_coriander_powder.f61b2febc1415dfc4f13.png",
     "index.html": "/Pusph-spices/index.html",
-    "main.7ee49852.css.map": "/Pusph-spices/static/css/main.7ee49852.css.map",
-    "main.65019759.js.map": "/Pusph-spices/static/js/main.65019759.js.map",
+    "main.5d8a14c3.css.map": "/Pusph-spices/static/css/main.5d8a14c3.css.map",
+    "main.ebbfd679.js.map": "/Pusph-spices/static/js/main.ebbfd679.js.map",
     "787.bea028de.chunk.js.map": "/Pusph-spices/static/js/787.bea028de.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7ee49852.css",
-    "static/js/main.65019759.js"
+    "static/css/main.5d8a14c3.css",
+    "static/js/main.ebbfd679.js"
   ]
 }
