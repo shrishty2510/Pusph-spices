@@ -22,7 +22,7 @@ const PusphProduct = () => {
                 <div className="background_image"> <img src="https://pushpmasale.com/wp-content/uploads/2020/01/product_header_28_01_20.jpg" alt="bg_image" height='500' width='100%' /> </div>
                 <main >
                     <div className="item_container" >
-                        <div data-aos="zoom-in"> <h2 style={{ fontFamily: "Poppins", }} className='text-grey text-center'>{category_name.toUpperCase()}</h2></div>
+                        <div data-aos="zoom-in"> <h2 style={{ fontFamily: "Playfair Display", }} className='text-grey text-center'>{category_name.toUpperCase()}</h2></div>
                         <hr className='my-3 ' style={{
                             color: 'rgb(206 65 65)',
                             width: '200px',

@@ -81,7 +81,7 @@ export const Pusphcategory = () => {
         </div>
         <main ref={productsection} >
           <div className="item_container" >
-          <div data-aos="zoom-in"> <h2 style={{fontFamily: "Poppins",}} className='text-grey text-center'>{product}</h2></div>
+          <div data-aos="zoom-in"> <h2 style={{fontFamily: "Playfair Display",}} className='text-grey text-center'>{product}</h2></div>
             <hr className='my-3 ' style={{
               color: 'rgb(206 65 65)',
               width: '200px',

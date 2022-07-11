@@ -22,7 +22,7 @@ export const About = () => {
 
     let pstyle = {
         fontSize: '18px',
-        fontFamily: 'poppins',
+        fontFamily: 'Ibarra Real Nova',
 
     }
     useEffect(() => {
@@ -57,7 +57,7 @@ export const About = () => {
                                     <p class="lead " style={{
                                         color: '#0886f0', padding: '15px 0px',
                                         fontStyle: 'italic',
-                                        fontFamily: 'poppins',
+                                        fontFamily: 'Ibarra Real Nova',
 
                                     }}>Pushp Brand Spices was founded by Late Shri Kishanlalaji Surana in 1974 as a small-scale
                                         industry in Indore, the heart of central India.
@@ -100,7 +100,7 @@ export const About = () => {
                                         width: '580px',
                                         opacity: '1',
                                     }} />
-                                    <p className='lead ' style={{ color: '#0886f0', fontSize: '18px', fontFamily: 'poppins' }}>Creating a harmonious balance between traditional pounding methods and cutting-edge
+                                    <p className='lead ' style={{ color: '#0886f0', fontSize: '18px', fontFamily: 'Ibarra Real Nova' }}>Creating a harmonious balance between traditional pounding methods and cutting-edge
                                         technology, Pushp Masale offers you spices that are in their most pristine form, devoid of
                                         any harm, delivering all the goodness straight to your food.</p><br />
                                     <div class="accordion accordion-flush" id="accordionFlushExample" >
@@ -150,7 +150,7 @@ export const About = () => {
                                         width: '565px',
                                         opacity: '1',
                                     }} />
-                                    <p className='lead ' style={{ color: '#0886f0', fontSize: '18px', fontFamily: 'poppins' }}>The blends and spices made <span className='text-danger'>at Pushp Masale</span> contain no fillers, starches, free-flow agents
+                                    <p className='lead ' style={{ color: '#0886f0', fontSize: '18px', fontFamily: 'Ibarra Real Nova' }}>The blends and spices made <span className='text-danger'>at Pushp Masale</span> contain no fillers, starches, free-flow agents
                                         or additives of any kind, making them rich in flavour and quality. Using our vast knowledge
                                         and experience for your benefit, Pushp Masale offers the widest possible range of <span className='text-danger'> top-quality </span>
                                         spices and blends to meet your every need.</p><br />
