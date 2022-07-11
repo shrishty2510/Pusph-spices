@@ -1,0 +1,36 @@
+.habout{
+    font-style: oblique;
+}
+.habout:first-letter{
+    font-size: 3rem;
+    color:#0078ab;
+    font-weight: 500;
+    font-style: oblique;
+}
+.accordion-button:focus {
+   z-index: 0; 
+   border-color: none; 
+   outline: 0; 
+   box-shadow: none; 
+}
+.about-span:hover,:active{
+      color:whitesmoke;
+}
+.accordion-item:last-of-type .accordion-button.collapsed{
+  background-color: #f4f5f7c6;
+}
+.glow{
+    position: absolute;
+    letter-spacing: 0.6rem;
+    padding: 4px;
+    right: 10px;
+    top:150px;
+    animation: example 4s ease-in-out infinite ;  /* infinite alternate */
+   
+  
+      }
+      @keyframes example {
+        from {width:30%;}
+        to {width:60%;}
+      }
+            

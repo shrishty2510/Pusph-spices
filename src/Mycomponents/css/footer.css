@@ -1,0 +1,109 @@
+
+
+footer{
+    position:absolute;
+    left:0;
+    bottom:0;
+    right:0;
+    height: calc(100% - 60px);
+   
+
+}
+
+.foot1 {
+    /* background-color:#100f0f; */
+    background-color: whitesmoke;
+    height: 50px;
+    padding: 10px;
+    color: black;
+
+
+}
+.footer-flex-container{
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.footer-flex-item{
+    width:300px;
+    padding-right: 20px;
+}
+
+.footbox {
+    background-color: rgb(206 65 65);
+    width: 54px;
+    height: 34px;
+    border-radius: 2px;
+    text-align: center;
+    padding: 2px;
+    position: fixed;
+    bottom: 10px;
+    left: 1100px;
+    float: right;
+}
+.footbox i{
+    animation: scrolltop 0.5s alternate ease infinite;
+}
+@keyframes scrolltop {
+    from{
+        transform: translateY(2px);
+    }
+    to{
+        transform: translateY(-1px);
+    }
+    
+}
+.icon-flex{
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+.icon-flex .icon{
+   padding: 0px 25px 0px 0px;
+}
+
+.footbox a {
+    color: aliceblue;
+}
+
+.fintro :hover {
+    color: white;
+    font-size: 14px;
+
+}
+
+.fintro {
+    color: darkgray;
+    letter-spacing: 0.1rem;
+    font-size: 13px;
+    text-align: justify;
+
+}
+
+.fintro li a {
+    color: darkgrey;
+}
+.footer-heading{
+    letter-spacing: 0.1rem;
+    color:white;
+}
+footer .flex-container svg{
+    
+    color: white;
+
+}
+footer .flex-container svg:hover{
+    color:rgb(214, 50, 50);
+    transform: scale(1.1);
+}
+
+@media screen  and (min-width:200px) and (max-width:990px){  
+    .icon-flex{
+        display: flex;
+        flex-direction: row;
+        
+    }
+}

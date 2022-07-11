@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    user-select: none;
+    font-family: sans-serif,'poppins';
+}
+nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  width: 100%;
+  height: 90px;
+  background-color: rgb(252, 252, 252);
+}
+nav:after{
+    content: '';
+    clear: both;
+    display: table;
+    
+}
+
+nav .logo{
+    float:left;
+    padding: 10px;
+}
+nav ul {
+    float:right;
+    list-style: none;
+    margin-right: 40px;
+    position: relative;
+}
+nav ul li{
+    float:left;
+    display: inline-block;
+    margin:0  0px;
+    margin-top: 40px;
+}
+nav ul li a{
+    font-size: 18px;
+    text-decoration: none;
+    line-height: 38px;
+    padding: 10px 15px;
+    transition: 0.3s all ease;
+    color: black;
+    font-family: "Poppins", sans-serif;
+}
+nav ul li a:hover{
+    color: rgb(170, 25, 25);
+
+    font-weight: bold;
+}
+
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    
+  }
+  
+  .hover-underline-animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 3px;
+    top:48px;
+    left: 0;
+    background-color: 
+    rgb(170, 25, 25);
+    transform-origin: bottom right;
+    transition: transform 0.35s ease-out;
+  }
+  
+  .hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  nav .main-ul ul{
+    position: absolute; 
+    z-index: 100; 
+    opacity: 0;
+    visibility: hidden;
+    transition: top 0.3s;
+    
+    
+  }
+  nav ul ul ul{
+    border-top: none;
+  }
+  
+  nav .main-ul li:hover >  ul{
+    top:97px;
+    right: 120px;
+    opacity: 1;
+    visibility: visible;
+    color: black;
+  }
+  nav ul ul li{
+    position: relative;
+    margin: 0;
+    width: 220px;
+    display: list-item;
+    float:none;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.863);
+    background-color: whitesmoke;
+    border: 1px ridge rgb(170, 25, 25);
+   
+    
+    
+
+  }
+ 
+  nav ul ul li a{
+    color: black;
+  }
+  
+  nav ul ul li a{
+    line-height: 39px;
+    
+  }
+  nav ul ul ul li {
+    position: relative;
+    top:-97px;
+    right:60px;
+  }
+  .show ,.nav-icon ,input{
+    display: none;
+  }
+  .fa-plus{
+    font-size: 15px;
+    margin-left: 10px;
+  }
+  @media screen and (min-width:100px) and (max-width:968px){
+    nav .main-ul{
+      margin-top:-10px;
+      margin-right: 0px;
+      float:left;
+      border: 1px ridge crimson;
+    }
+    nav .main-ul a{
+      font-size: 15px;
+    }
+    nav .main-ul ul li, nav .main-ul ul ul li{
+      text-align: left;
+      
+     
+      border: none;
+      
+    
+    }
+    nav .main-ul ul li{
+      margin-left: -33px;
+      background-color: rgba(0, 0, 0, 0.329);
+      
+      
+    }
+    nav .main-ul ul ul li{
+      background-color: rgba(0, 0, 0, 0.112);
+      opacity: 0.9;
+      text-align: center;
+    }
+    
+    nav .main-ul  li{
+      margin:-5px 0px;
+    }
+    nav .logo{
+      padding-left:30px;
+      width:100%;
+    }
+    .show + a, ul{
+      display:none;
+    }
+    nav ul li, nav ul ul li{
+      display:block;
+      width:100%;
+    }
+    nav ul li a:hover{
+      box-shadow: none;
+    }
+    .show{
+      display:block;
+
+      font-size: 15px;
+      padding:0 12px;
+      line-height: 50px;
+      cursor:pointer;
+    }
+    
+    .nav-icon{
+      display:block;
+      position:absolute;
+      top:0;
+      right:10px;
+      line-height: 70px;
+      cursor:pointer;
+      font-size: 25px;
+    }
+    nav ul ul{
+      top:70px;
+      border-top:0px;
+      float:none;
+      position:static;
+      display:none;
+      opacity:1;
+      visibility:visible;
+    }
+   
+    nav ul ul ul li{
+      position:static;
+    }
+    [id^=btn]:checked + ul{
+      display:block;
+    }
+    
+    /* span.cancel:before{
+      content:'\f00d';
+    } */
+    nav .main-ul {
+    background-color: rgba(0, 0, 0, 0.899);
+     width: 100%;
+    
+    }
+    nav .main-ul ul{
+       width: 100%;
+     
+      
+      }
+      nav ul ul li a{
+        color: whitesmoke;
+      }
+   
+    
+   
+    nav ul li a , .show{
+      color: whitesmoke ;
+    }
+   nav .main-ul li a:hover{
+    color: rgb(170, 25, 25);
+    transition: none;
+
+    font-weight: bold;
+}
+nav .main-ul ul ul li a:hover,nav .main-ul ul li a:hover{
+        color: rgb(170, 25, 25);;
+        
+}
+nav .main-ul li:hover >  ul{
+  position: static;
+ 
+  opacity: 1;
+  visibility: visible;
+}
+.hover-underline-animation:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 0px;
+  top:48px;
+  left: 0;
+  background-color: 
+  transparent;
+  transform-origin: bottom right;
+  transition: transform 0s ease-out;
+}
+
+
+  }
+
+          

@@ -1,0 +1,311 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container1 {
+
+   background-color: white;
+    position: relative;
+    margin-top: -130px;
+    width: 100%;
+    background:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAT4AAACfCAMAAABX0UX9AAAAA1BMVEX///+nxBvIAAAASElEQVR4nO3BMQEAAADCoPVPbQ0PoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABODcYhAAEl463hAAAAAElFTkSuQmCC')
+
+ 
+
+
+}
+
+
+
+.flex-container>div {
+    width: 260px;
+    text-align: center;
+}
+
+
+.button {
+    border: 2px solid lightgray;
+    background-color: #e31e24;
+    color: whitesmoke;
+    padding: 25px;
+    line-height: 0.1rem;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    font-size: large;
+    margin: auto;
+    border-radius: 6px;
+    box-shadow: -19px 13px 10px 0px rgb(0 0 0 / 50%);
+}
+
+.flex1 {
+    margin: auto;
+    width: 500px;
+    display: flex;
+    margin-top: 22px;
+    /* justify-content: flex-start;
+              align-items: flex-start; */
+}
+
+.icon1 {
+    color: #3B5998;
+    /* background-color: #3B5998; */
+}
+
+.icon1 :hover {
+
+    background-color: #3B5998;
+    color: white;
+    border-radius: 50%;
+    width: 50px;
+
+}
+
+
+.icon2 {
+    color: #1DA1F2;
+}
+
+.icon2 :hover {
+
+    background-color: #1DA1F2;
+    color: whitesmoke;
+    border-radius: 50%;
+    width: 50px;
+
+}
+
+.icon3 {
+    color: #262626;
+}
+
+.icon3 :hover {
+
+    background-color: rgba(0, 0, 0, 0.8);
+    color: whitesmoke;
+    border-radius: 20%;
+    width: 50px;
+
+}
+
+.icon4 {
+    color: #CD201F;
+}
+
+.icon4 :hover {
+
+    background-color: #CD201F;
+    color: whitesmoke;
+    border-radius: 10%;
+    width: 55px;
+
+}
+
+iframe {
+    box-shadow: -9px 6px 9px rgb(0 0 0 / 40%);
+}
+
+.elementor-background-overlay {
+    background-color: #ffff;
+    opacity: 0.7;
+
+}
+
+.section2 {
+    /* background: url('../images/bg8.jpeg'); */
+    background: url('https://i.pinimg.com/originals/97/8c/e9/978ce901b551a1470aab1156c58c58a1.gif');
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    
+    margin-top: 100px;
+
+}
+
+
+
+.container3 {
+    color: black;
+    padding: 10px;
+    opacity: 1;
+}
+
+figure {
+    color: #000000;
+    /* margin-block-start: 1em;
+          margin-block-end: 2em;
+          margin-inline-start: 40px;
+          margin-inline-end: 40px; */
+    font-weight: bold;
+
+
+}
+
+figure img {
+    color: #000000;
+
+
+}
+
+#con4 {
+    /* background: url('https://i.pinimg.com/originals/97/8c/e9/978ce901b551a1470aab1156c58c58a1.gif');
+    ; */
+    /* background-color: rgb(187 119 30 / 22%); */
+    background-color: rgba(0, 0, 0, 0.949);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: repeat-x;
+    background-size: cover;
+    width: 100%;
+    min-height: 300px;
+    margin-top: 100px;
+
+}
+#con4  h1{
+    text-shadow: 0 0 9px #c31e11, 0 0 9px #c31e11;
+}
+.button1 {
+    border: 2px ridge darkgrey;
+    padding: 0px 1px;
+    width: 252px;
+    line-height: 0.1;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 500;
+    border-radius: 6px;
+    position: relative;
+    bottom: -25px;
+    /* right: -197px; */
+    left: -7px;
+    background-color:#eedada;
+    letter-spacing: 0.1rem;
+    height: 45px;
+    -webkit-text-stroke: 0.1vw #c31e11;
+    
+
+}
+
+.button:hover {
+    cursor: pointer;
+}
+#con4 .marquee_div {
+    font-size: 30px;
+    display: inline-block;
+    position: relative;
+    padding: 50px 30px;
+    text-align: center;
+    font-weight: bolder;
+    color: white;
+    font-style: italic;
+    font-family:  sans-serif;
+    letter-spacing: 0.3rem;
+    
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .h1 {
+        font-size: 5px;
+    }
+}
+
+@media screen and (min-width:600px) and  (max-width:1216px) {
+    .carousel-inner{
+        position: relative;
+        top:50px;
+    }
+    .container1{
+        margin-top: 0px;
+    }
+}    
+
+@media screen and (max-width:600px){
+    .container1{
+        width: 100%;
+        position: relative;
+        margin-top:0px
+
+    }   
+    .container1 h2{
+        font-size: 15px;
+        padding-top:20px;
+        
+    } 
+    .container1 h5{
+        font-size: 16px;
+    } 
+    .container1 .para{
+        font-size: 14px;
+    } 
+    .carousel-inner{
+        position: relative;
+        top:80px;
+    }
+}
+@media screen and (min-width:950px) and (max-width:1100px){
+    .flex-container{
+        justify-content: space-evenly;
+        width: 100%;
+        margin: auto;
+        position: relative;
+    }
+    .flex-container > div {
+       
+        width:200px;
+        margin: 15px 0px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 20px;
+        
+      }
+}
+@media screen and (min-width:600px) and (max-width:950px){    
+    .flex-container{
+        width: 90%;
+        margin: auto;
+        display: flex;
+        flex-flow: column  wrap;
+        justify-content: space-around;
+    }
+    .flex-container > div {
+       
+        width:250px;
+        margin: 15px 0px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 22px;
+        
+      }
+}
+@media screen and (min-width:200px) and (max-width:600px){    
+    .flex-container{
+
+        width: 100%;
+        margin: auto;
+        position: relative;
+        top:100px;
+        display: flex;
+        flex-flow:column;
+        justify-content: space-around;
+    }
+    .flex-container > div {
+        width:250px;
+        margin: 15px ;
+        
+      }
+      .flex-container > div img{
+       
+        width:170px;
+        margin:  10px 0px ;
+        
+      }
+      .flex-container > div img h6{
+    
+        font-size: 40px;
+      }
+   
+}
