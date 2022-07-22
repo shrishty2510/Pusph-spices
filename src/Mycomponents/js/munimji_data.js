@@ -1,9 +1,9 @@
-import pic1 from "../images/product images/munimji/Chilli Powder Munim Ji.jpg"
-import pic2 from "../images/product images/munimji/Coriander Powder Munim Ji.jpg"
-import pic3 from "../images/product images/munimji/Garam Masala Super Munim Ji.jpg"
-import pic4 from "../images/product images/munimji/Mango Powder Munim Ji.jpg"
-import pic5 from "../images/product images/munimji/Turmeric Powder Munim Ji.jpg"
-import pic6 from "../images/product images/munimji/Achar Masala Munim Ji.jpg";
+import pic1 from "../images/product images/munimji/Chilli Powder.png"
+import pic2 from "../images/product images/munimji/Coriander Powder.png"
+import pic3 from "../images/product images/munimji/Garam Masala.png"
+import pic4 from "../images/product images/munimji/Mango Powder.png"
+import pic5 from "../images/product images/munimji/Turmeric Powder.png"
+import pic6 from "../images/product images/munimji/Achar Masala.png";
 
 
 
@@ -13,7 +13,7 @@ const Items = [
         image:pic1,
         description: "Made from the finest red chillies handpicked by our field experts, Munimji brings you exquisite red chilli powder ground to perfection for your everyday cooking. Use it in your everyday dishes to get that rich colour and aroma, along with the spiciness that contributes to the overall flavour of your cooked dishes.",
         "available": ["Rs 10 | Rs 20 | 50g | 100g", "200g | 500g | 1kg | 5kg | 10kg"],
-        // category:'MUNIMJI MASALE',
+        category:'MUNIMJI MASALE',
         spice : 'Munimji Chilli Powder',
     },
     {
@@ -21,7 +21,7 @@ const Items = [
         image:pic5,
         description: "Turmeric not only lends a distinctive hue to your dish but also has proven health benefits making it an integral part of your daily meal. Munimji Turmeric Powder comes with all the health benefits, neatly accompanied by top-class quality and purity. A small pinch of this turmeric powder is enough to give your dish the rich colour and to you, the wonder of good health.",
         "available": ["Rs 5 (12g) | Rs 10 (24g) | 50g | 100g", "200g | 500g | 1kg | 5kg | 10kg"],
-        // category:'MUNIMJI MASALE',
+        category:'MUNIMJI MASALE',
         spice : 'Munimji Turmeric Powder',
     },
     {
@@ -29,7 +29,7 @@ const Items = [
         image:pic2,
         description: "The best quality coriander seeds are grounded to create robust and flavourful Munimji Coriander Powder. This spice blend plays a huge role in giving your everyday dishes a great dollop of flavour and a smacking tinge.",
         "available": ["Rs 5 (12g) | Rs 10 (24g) | 50g | 100g", "200g | 500g | 1kg | 5kg | 10kg"],
-        // category:'MUNIMJI MASALE',
+        category:'MUNIMJI MASALE',
         spice : 'Munimji Coriander Powder',
     },
     {
@@ -37,8 +37,7 @@ const Items = [
         image:pic4,
         description: "A pretty unique ingredient, Munimji Mango Powder is both sweet and tangy at the same time. This unique property makes it an important spice to have in your kitchen. Enjoy this fresh burst of tangy flavours with Munimji Mango Powder!",
         "available": ["50g I 100g I 200g I 500g"],
-        // category:'MUNIMJI MASALE',
-        // category:'MUNIMJI MASALE',
+        category:'MUNIMJI MASALE',
         spice : 'Munimji Mango Powder',
     },
     {
@@ -49,7 +48,7 @@ const Items = [
         'recipe': ['Sprinkle a small quantity of Munimji Garam Masala on all kinds of cooked vegetables to get that aromatic flavour and delicious taste.',
             'Use Munimji Garam Masala in Bhajiya, Kachori,  Samosa, Pulav etc. to make them tastier and aromatic.',
     ],
-        // category:'MUNIMJI MASALE',
+        category:'MUNIMJI MASALE',
         spice : 'Munimji Garam Masala',
     },
     {
@@ -63,7 +62,7 @@ const Items = [
             'Tasty, spicy pickle is ready to eat!!',
     ],
         Note: 'There is no need to mix any other spices in the pickle mixture.',
-        // category:'MUNIMJI MASALE',
+        category:'MUNIMJI MASALE',
         spice : 'Munimji Achar Masala',
     },
 ]

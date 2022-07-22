@@ -1,40 +1,20 @@
 
-.owl-carousel .owl-item img {
-    display: block;
-    width:75%;
-    /* animation-name: example;
-    animation-duration: 6s;
-    animation-delay: 4s;
-    animation-iteration-count: infinite; */
-}   
-.owl-carousel .owl-item img:hover{
-    width:70%;
-    /* animation-name: example;
-    animation-duration: 6s;
-    animation-delay: 4s;
-    animation-iteration-count: infinite; */
-}   
-.product-card{
-    text-align: center;
-    /* border:1px ridge #e6bc2ce3; */
-    padding:10px 0px;
-    padding-left:50px;
-   
-}
-.hide{
-    display:none;
+.product-owl-carousel div img{
+   object-fit: contain;
 }
 
-.product-image:hover + .hide {
-    display: block;
-    position:absolute;
-    top:230px;
-    text-align:center;
-    font-family: "poppins";
-  }
-  
-  .product-image img{   
-    filter: drop-shadow(10px 10px 10px rgb(245, 212, 127) );
-  }
-
-
+@media screen and (min-width:498px) and (max-width:600px){
+    .product-owl-carousel div {
+        padding: 0px 101px
+    }
+}
+@media screen and (min-width:450px) and (max-width:498px){
+    .product-owl-carousel div {
+        padding: 0px 80px
+    }
+}
+@media screen and (min-width:350px) and (max-width:450px){
+    .product-owl-carousel div {
+        padding: 0px 50px
+    }
+}

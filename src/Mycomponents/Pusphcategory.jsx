@@ -7,6 +7,7 @@ import  { Product_page} from "./Product_page"
 
 import "./css/pusphcategory.css"
 import categories from './js/pusphmasalecategories'
+import { Divider } from '@mui/material';
 
 
 export const Pusphcategory = () => {
@@ -56,24 +57,25 @@ export const Pusphcategory = () => {
   return (
     <>
     <section style={{ marginTop: '0px', }}>
-      <div className="background_image"> <img src="https://pushpmasale.com/wp-content/uploads/2020/01/product_header_28_01_20.jpg" alt="bg_image" height='500' width='100%' /> </div>
-        <h1 className='text-dark mx-2 mt-4'>Category</h1>
-
+      <div className="pusph_category_background_image"> <img src="https://pushpmasale.com/wp-content/uploads/2020/01/product_header_28_01_20.jpg" alt="bg_image" height='500' width='100%' style={{objectFit:'contain'}}/> </div>
+       
+     <div className="text-dark  mb-5 mx-2 pushp_category-h1"> <h1 className=''>Category</h1></div>
         <div class="flex-containerr  " data-aos="fade-up">
+           
           
-            <div onClick={gotoproductsection} className="" >
+            <div onClick={gotoproductsection} className="product-flex-item" >
                 <div><Link   className="category text-decoration-none" to="" onClick={() => filterItem('CTC SPICES')}> <img src="https://m.media-amazon.com/images/I/71iYBTkjVML._SL1500_.jpg" alt="ctc spices" width='200' /></Link></div>
                <div><Link id={value}  className="category-link h5 text-decoration-none " to="" onClick={() => filterItem('CTC SPICES')}>CTC SPICES</Link></div>
             </div>
-            <div onClick={gotoproductsection} className=""  >
+            <div onClick={gotoproductsection} className="product-flex-item"  >
                 <div><Link   className="category  text-decoration-none" to="" onClick={() => filterItem('BLENDED SPICES')}> <img src="https://m.media-amazon.com/images/I/71+ZE9HwQCL._AC_SX451_SY423_.jpg" alt="ctc spices"  width='200' /></Link></div>
                <div><Link   id={value1}  className="category-link h5 text-decoration-none" to="" onClick={() => filterItem('BLENDED SPICES')}>BLENDED SPICES</Link></div>
             </div>
-            <div onClick={gotoproductsection} className=""  >
+            <div onClick={gotoproductsection} className="product-flex-item"  >
                 <div><Link   className="category text -decoration-none" to="" onClick={() => filterItem('PURE SPICES')}> <img src="https://m.media-amazon.com/images/I/71FHrd5vWLL._SX679_PIbundle-4,TopRight,0,0_AA679SH20_.jpg"  width='200' alt="pure spices" /></Link></div>
-               <div><Link  id={value2}   className="category-link h5 text-decoration-none" to="" onClick={() => filterItem('PURE SPICES')}>PURE SPICES</Link></div>
+                <div> <Link  id={value2}   className="category-link h5 text-decoration-none" to="" onClick={() => filterItem('PURE SPICES')}>PURE SPICES</Link></div>
             </div>
-            <div onClick={gotoproductsection} className="" >
+            <div onClick={gotoproductsection} className="product-flex-item" >
                 <div><Link   className="category  text-decoration-none" to="" onClick={() => filterItem('SOYA CHUNKS')}> <img src="https://m.media-amazon.com/images/I/81DY0qkwCJL._SL1500_.jpg" height="200" alt="soya chunks"  width='200' /></Link></div>
                <div><Link  id={value3}   className="category-link h5 text-decoration-none" to="" onClick={() => filterItem('SOYA CHUNKS')}>SOYA CHUNKS</Link></div>
             </div>
@@ -81,7 +83,7 @@ export const Pusphcategory = () => {
         </div>
         <main ref={productsection} >
           <div className="item_container" >
-          <div data-aos="zoom-in"> <h2 style={{fontFamily: "Playfair Display",}} className='text-grey text-center'>{product}</h2></div>
+          <div data-aos="zoom-in"> <h2  style={{ fontFamily:" 'Ibarra Real Nova', serif", }} className='text-grey text-center'>{product}</h2></div>
             <hr className='my-3 ' style={{
               color: 'rgb(206 65 65)',
               width: '200px',
@@ -93,7 +95,7 @@ export const Pusphcategory = () => {
                 const { id, image, category, spice } = values;
                 return (
                   <>
-                    <div className="col-md-4" key={index} data-aos="fade-down"  data-aos-easing="ease-in-out">
+                    <div className="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-12" key={index} data-aos="fade-down"  data-aos-easing="ease-in-out">
                       <div className="card mb-5 ">
                         <div className="card_img text-center">
                          <Link  to={`/product_page/pusph_masale/${spice}/${id}`} > <img src={image}  width='170' height='170' alt="product_image" /></Link>

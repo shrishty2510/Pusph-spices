@@ -40,12 +40,11 @@
 }
 
 .flex1 {
-    margin: auto;
-    width: 500px;
     display: flex;
-    margin-top: 22px;
-    /* justify-content: flex-start;
-              align-items: flex-start; */
+    flex-flow: row  wrap;
+    justify-content: space-around;
+    margin-top: 55px;
+   
 }
 
 .icon1 {
@@ -71,8 +70,8 @@
 
     background-color: #1DA1F2;
     color: whitesmoke;
-    border-radius: 50%;
-    width: 50px;
+    border-radius: 60%;
+    width: 45px;
 
 }
 
@@ -82,10 +81,11 @@
 
 .icon3 :hover {
 
-    background-color: rgba(0, 0, 0, 0.8);
+    background-image:radial-gradient(    circle at 30% 107% , #8a3ab9 20%, #e95950 60%, #bc2a8d 60%);
     color: whitesmoke;
     border-radius: 20%;
     width: 50px;
+    outline-color: #a02d76;
 
 }
 
@@ -262,6 +262,7 @@ figure img {
         font-size: 20px;
         
       }
+   
 }
 @media screen and (min-width:600px) and (max-width:950px){    
     .flex-container{
@@ -287,7 +288,8 @@ figure img {
         width: 100%;
         margin: auto;
         position: relative;
-        top:100px;
+        top:30px;
+        bottom:30px;
         display: flex;
         flex-flow:column;
         justify-content: space-around;
@@ -307,5 +309,76 @@ figure img {
     
         font-size: 40px;
       }
+
    
 }
+@media screen and (min-width:1110px) and (max-width:1235px){ 
+    .iframe-div iframe{
+        min-width:500px;
+        padding-right:20px;
+    }
+    .social-icon-div{
+        width: 450px;
+        margin-left: -20px;
+    }
+    
+   }
+   @media screen and (min-width:992px) and (max-width:1110px){ 
+    .iframe-div iframe{
+        min-width:400px;
+        padding-right:20px;
+    }
+    .social-icon-div{
+        width: 400px;
+       
+   }
+   .container1 .para{
+        text-align:left;
+   }
+ }   
+ @media screen and (min-width:700px) and (max-width:992px){ 
+    .iframe-div {
+        text-align: center;
+        width:700px;
+        margin:auto;
+       
+    }
+    .iframe-div iframe {
+         width:550px;
+       
+       
+    }
+   
+ }   
+ @media screen and (min-width:560px) and (max-width:700px){ 
+    .iframe-div {
+        text-align: center;
+       
+    }
+    .iframe-div iframe {
+        width:500px;
+        margin: auto;
+        padding:0px;
+       
+    }
+    .social-icon-div{
+        margin-left: 0px;
+    }
+   
+ }   
+ @media screen and (min-width:200px) and (max-width:560px){ 
+    .iframe-div {
+        text-align: center;
+       
+    }
+    .iframe-div iframe {
+        width:310px;
+        margin: auto;
+        padding:0px;
+       
+    }
+    #con4 .marquee_div{
+        font-size: 20px;
+    }
+   
+ }   

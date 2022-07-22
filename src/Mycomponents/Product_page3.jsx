@@ -5,6 +5,7 @@ import { useParams } from 'react-router-dom';
 // import AccordionDetails from '@mui/material/AccordionDetails';
 // import Typography from '@mui/material/Typography';
 // import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import OwlDemo1 from "./ProductSlider";
 import './css/product_page.css'
 import Items from './js/quickfry_data.js'
 
@@ -32,13 +33,13 @@ export const Product_page3 = () => {
 
               {Items.filter(item => item.spice === product_name).map(filteredItem => (
                 <>
-                  <div className="col-sm-3 col-md-5 col-xs-12">
+                  <div className="col-xl-3  col-lg-4  col-md-12 col-sm-12 col-xs-12">
                     <div className="product_image text-center" data-aos="fade-right" style={{
                       margin: '50px 0px',
                     }}> <img src={filteredItem.image} width='300' height='380' alt="item" style={{ objectFit: 'cover' }} /> </div>
 
                   </div>
-                  <div className="col-sm-9 col-md-6 col-xs-12 offset-md-1 mx-2">
+                  <div className="offset-xl-2 col-xl-6  offset-lg-2  offset-md-12 col-lg-6 col-md-6 col-sm-12 col-xs-12">
                     <div className="product_info"
                       style={{
                         margin: '15px 0px',
@@ -53,6 +54,7 @@ export const Product_page3 = () => {
                           letterSpacing: '0.03em',
                           fontSize:'15px',
                           fontFamily: 'arial',
+                          textAlign:'justify',
                         }}>{filteredItem.description}
                         </p>
                       </div>
@@ -78,8 +80,10 @@ export const Product_page3 = () => {
                       </div>
                       {/* <div className=" buynow"  data-aos="flip-down"> <span>Buy Now</span></div> */}
                       <div class="hrline"></div>
+                      
                     </div>
                   </div>
+                  <div><OwlDemo1 category_name={filteredItem.category} spice={filteredItem.spice}  /></div>
                 </>
               ))
               }
@@ -90,6 +94,7 @@ export const Product_page3 = () => {
             </div>
           </div>
         </main>
+        
       </section>
     </>
   )

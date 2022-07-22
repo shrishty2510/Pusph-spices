@@ -34,27 +34,28 @@ export const Product_page2 = () => {
 
               {Items.filter(item => item.spice === product_name).map(filteredItem => (
                 <>
-                  <div className="col-sm-3 col-md-5 col-xs-12">
+                  <div className="col-xl-3  col-lg-4  col-md-12 col-sm-12 col-xs-12">
                     <div className="product_image text-center" data-aos="fade-right" style={{
                       margin: '50px 0px',
-                    }}> <img src={filteredItem.image} width='300' height='380' alt="item" style={{ objectFit: 'cover' }} /> </div>
+                    }}> <img src={filteredItem.image} width='300' height='380' alt="item" style={{ objectFit: 'cover' }} />
+                    </div>
 
                   </div>
-                  <div className="col-sm-9 col-md-6 col-xs-12 offset-md-1 mx-2">
+                  <div className="offset-xl-2 col-xl-6  offset-lg-2  offset-md-12 col-lg-6 col-md-6 col-sm-12 col-xs-12">
                     <div className="product_info"
                       style={{
                         margin: '15px 0px',
                         fontFamily:'poppins',
                       }}>
-                      <div data-aos="fade-left"><p style={{ fontSize: '45px', fontWeight: 'bold' }}>{product_name}</p></div>
+                      <div data-aos="fade-left"><p  style={{ fontSize: '45px', fontWeight: 'bold' }}>{product_name}</p></div>
                       <div className="usage">
                         <div><p className='h4'>Usage</p></div>
-                        <p style={{
-                          fontFamily: 'inherit',
+                        <p  style={{
                           lineHeight: '1.5',
                           letterSpacing: '0.03em',
                           fontSize:'15px',
                           fontFamily: 'arial',
+                          textAlign:'justify',
                         }}>{filteredItem.description}
                         </p>
                       </div>

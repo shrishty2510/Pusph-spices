@@ -2,6 +2,7 @@ import React from 'react'
 import { useEffect } from 'react';
 import Tooltip from '@mui/material/Tooltip';
 import { Owldemo } from "./Owldemo";
+import OwlDemo1 from "./ProductSlider";
 import DownloadSharpIcon from '@mui/icons-material/DownloadSharp';
 import './css/main.css';
 
@@ -9,8 +10,6 @@ import './css/main.css';
 export const Main = () => {
 
     let divstyle = {
-        // margin: 'auto',
-        // width: '1100px',
         lineHeight: '2rem',
         fontSize: '16px',
 
@@ -49,11 +48,11 @@ export const Main = () => {
 
                 </section>
                 <section >
-                    <div className="container container1 ">
+                    <div className="container-fluid container1">
                         <div className="headings " data-aos="fade-down"> <h2 className='text-center' >THE FINEST BLEND OF PURITY AND QUALITY</h2><br />
                             <h5 className='text-center mb-2 text-info'>We deliver the best herbs and spices of India to offer you the most unique food
                                 experiences.</h5></div>
-                        <div className=' text-center container-fluid para' data-aos="fade-down" style={divstyle}>
+                        <div className=' text-center container-fluid px-4 para col-md-12' data-aos="fade-down" style={divstyle}>
 
                             <span className='text-danger'>Established in 1974</span>, Pushp Masale is a pioneer in the field of processing and manufacturing
                             of Pure Spices, CTC Spices, Blended Spices, Munimji Masale, RTE and other food solutions
@@ -70,7 +69,7 @@ export const Main = () => {
                     </div>
                 </section>
                 <section className='container-fluid'>
-                    <div className="flex-container my-4" style={flex}>
+                    <div className="flex-container  my-4" style={flex}>
                         <div className=''> <img src="https://pushpmasale.com/wp-content/uploads/elementor/thumbs/No_synthetic_colour_and_preservatives-oglulfcokk2le7da1rxrp99vs342a0lh595qqdzmos.png" alt="item1" />
                             <h6 className='text-center '>No synthetic colour and preservatives</h6>
                         </div>
@@ -87,6 +86,9 @@ export const Main = () => {
                 </section>
                 <section class="product" >
                     <div data-aos="zoom-in" data-aos-offset="100" data-aos-duration="1000"> <Owldemo /></div>
+                    
+        
+                   
                    
                     <div className="container" >
                         <div className="button my-4" data-aos="flip-down">View Products</div><br></br>
@@ -99,11 +101,11 @@ export const Main = () => {
 
                     <div className="container ">
                         <div className="row">
-                            <div className="col-sm-6 my-4">
+                            <div className=" col-lg-6 col-sm-12  col-12 col-md-12  my-4 social-icon-div">
                                 <h4 className='text-center my-4' style={{letterSpacing:'0.9',}}>SPICE UP YOUR FEEDS!</h4>
                                 <h5 className='text-center text-muted'>We are socially active. Stay connected to get the latest on what’s happening in the world of
                                     herbs and spices.</h5>
-                                <div class="flex-container flex1">
+                                <div class=" flex1">
                                     <Tooltip title='facebook'>
                                     <div className='icon1'><svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
                                         <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
@@ -128,9 +130,9 @@ export const Main = () => {
                                 </div>
 
                             </div>
-                            <div className="col-sm-6 " data-aos="fade-left" >
+                            <div className=" col-lg-5 col-sm-12 col-md-12 col-xs-12 offset-lg-1 mt-5  iframe-div" data-aos="fade-left" >
                                
-                                <iframe width="560" height="315" src="https://www.youtube.com/embed/b_3y9h15iSo" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                                <iframe width="500" height="315" src="https://www.youtube.com/embed/b_3y9h15iSo" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 
                             </div>
                         </div>
@@ -145,14 +147,15 @@ export const Main = () => {
                                 </div>
                             </div>
                             <div className="row">
-                                <div className="col-sm-6 text-center" data-aos="fade-down">
+                                <div className="col-lg-6 col-sm-12 col-md-6 col-12 text-center" data-aos="fade-down">
                                     <figure class="wp-caption ">
                                         <img width="300" height="300" src="https://pushpmasale.com/wp-content/uploads/2019/12/9001_pushp-300x300.png " class="attachment-medium size-medium py-4" alt="" />
 
-                                        <figcaption class="widget-image-caption wp-caption-text h4 py-4">AN ISO 9001:2015 Certified Company</figcaption></figure>
+                                        <figcaption class="widget-image-caption wp-caption-text text-center h4 py-4">AN ISO 9001:2015 Certified Company</figcaption></figure>
                                 </div>
-                                <div className="col-sm-6 text-center" data-aos="fade-down">
-                                    <figure class="wp-caption "><img width="300" height="300" src="https://pushpmasale.com/wp-content/uploads/2019/12/22000_pushp-300x300.png" class="attachment-medium size-medium py-4" alt="" /><figcaption class="widget-image-caption wp-caption-text h4 py-4"> <p>AN ISO 22000 Certified Company</p> </figcaption></figure>
+                                <div className="col-lg-6 col-sm-12 col-md-6 col-12  text-center" data-aos="fade-down">
+                                    <figure class="wp-caption "><img width="300" height="300" src="https://pushpmasale.com/wp-content/uploads/2019/12/22000_pushp-300x300.png" class="attachment-medium size-medium py-4" alt="" />
+                                    <figcaption class="widget-image-caption wp-caption-text text-center h4 py-4"> <p>AN ISO 22000 Certified Company</p> </figcaption></figure>
                                 </div>
                             </div>
                         </div>

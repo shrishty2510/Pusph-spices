@@ -32,19 +32,21 @@ export const Navbarmenu = () => {
             <input type="checkbox" name="" id="btn-1" />
             <ul>
                 <li>
-                    <label for="btn-2" className="show">PUSPH MASALE +</label>
-                    <NavLink  to="/pusph_category">PUSHP MASALE <span className="fa fa-plus"></span></NavLink> 
+                    <label for="btn-2" className="show">PUSHP MASALE +</label>
+                    <NavLink to="" >PUSHP MASALE <span className="fa fa-plus"></span></NavLink> 
                     <input type="checkbox" name="" id="btn-2" />
                     <ul>
-                        <li><NavLink  to={`/pusph_product/${category_name1}/`} >CTC SPICES</NavLink> </li>
-                        <li><NavLink  to={`/pusph_product/${category_name2}/`}>BLENDED SPICES</NavLink> </li>
-                        <li><NavLink  to={`/pusph_product/${category_name3}/`}>PURE SPICES</NavLink> </li>
-                        <li><NavLink   to={`/pusph_product/${category_name4}/`}>SOYA CHUNKS</NavLink> </li>
+                        <li><NavLink  to={`/pushp_product/${category_name1}/`} >CTC SPICES</NavLink> </li>
+                        <li><NavLink  to={`/pushp_product/${category_name2}/`}>BLENDED SPICES</NavLink> </li>
+                        <li><NavLink  to={`/pushp_product/${category_name3}/`}>PURE SPICES</NavLink> </li>
+                        <li><NavLink   to={`/pushp_product/${category_name4}/`}>SOYA CHUNKS</NavLink> </li>
+                        <li><NavLink  to="/quickFry">QUICK FRY</NavLink> </li>
                     </ul>
                 </li>    
-                <li><NavLink  to="/munimji_masale" >MUNIMJI MASALE</NavLink> 
+                <li><NavLink  to="/munimji_masale" >MUNIMJI MASALE</NavLink> </li>
+                <li><NavLink   to="/pushp_category" >ALL PRODUCTS</NavLink>
                 </li>
-                <li><NavLink  to="/quickFry">QUICK FRY</NavLink> </li>
+                
             </ul>
           </li> 
            <li><NavLink  className="hover-underline-animation" to="">Buy Online</NavLink> </li>

@@ -57,3 +57,49 @@
     box-shadow: none;
     min-width: 50px;
 }
+
+.product_info .usage .h4 {
+    text-shadow:  0.5px  1px rgb(6, 5, 5);
+}
+@media screen and (min-width:840px) and (max-width:992px){
+    .product_container .product_info{
+
+        width:220%;
+    }
+}    
+@media screen and (min-width:770px) and (max-width:840px){
+        .product_container .product_info{
+    
+            width:200%;
+           
+        }
+    
+}
+@media screen and (min-width:270px) and (max-width:590px){
+    .product_container .product_info{
+             padding: 0px 30px;
+        
+    }
+    .product_container .product_image{
+        text-align: center;
+        
+    }
+    .product_container .product_image img{
+        width:300px;
+        padding: 20px;
+        
+        
+    }
+    .product_container .product_info h1{
+        /* color:rgb(174, 33, 33);
+        font: 700 normal 2.5em 'tahoma';
+        text-shadow: 5px 2px #222324, 2px 4px #222324, 3px 5px #222324; */
+        color:black;
+       
+        text-shadow:  1px 1px crimson;
+        margin-bottom: 20px;
+    
+    }
+   
+
+}

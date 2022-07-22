@@ -16,7 +16,7 @@ const Items = [
         description: "Add zing to your everyday daal with this blended spice mix. A premix of quality tadka spices blended in together, so all you need is Pushp Dal Tadka Masala to make your daal delicious.",
         "available": ["Rs 5 (7g) | 50 g | 100g"],
         small_text : 'with onion and garlic',
-        // category:'QUICK FRY',
+        category:'QUICK FRY',
         spice : 'Dal Tadka Masala',
     },
     {
@@ -25,7 +25,7 @@ const Items = [
         description: "A subtle blend of spices combined to enhance the taste of vegetable dishes, Pushp Quick Fry Sabji Masala gives your vegetable dishes that beautiful flavour, colour and aroma in a jiffy.",
         "available": ["Rs 5 (7g) | 50 g | 100g"],
         small_tex : 'without onion and garlic',
-        // category:'QUICK FRY',
+        category:'QUICK FRY',
         spice : 'Sabji Masala',
     },
     
@@ -35,14 +35,14 @@ const Items = [
         description: "Make Shahi Paneer within minutes with Pushp Quick Fry Shahi Paneer Masala. It is the perfect blend of freshly roasted and ground spices to add quick flavour and delicacy to your paneer gravy dish.",
         "available": ["Rs 5 (7g) I 50 g I 100g I 200g"],
         small_text : 'with onion and garlic',
-        // category:'QUICK FRY',
+        category:'QUICK FRY',
         spice : 'Shahi Paneer Masala',
     },
     
     {
         id:6,
         image:pic5,
-        // category:'QUICK FRY',
+        category:'QUICK FRY',
         spice : 'Shahi Sabji Masala',
     },
    
@@ -50,7 +50,7 @@ const Items = [
         id:5,
         image:pic6,
         description:'A healthy and delicious meal option, preparing different types of soya dishes is now easy and quick with Pushp Quick Fry Soya Chunks Masala. It provides the exact balance between the spice elements and extra ingredients turning your soya dish into a tasty treat.',
-        // category:'QUICK FRY',
+        category:'QUICK FRY',
         "available": ["Rs 5 (7g) | 50 g | 100g"],
         spice : 'Soya Chunks Masala',
     },
@@ -60,7 +60,7 @@ const Items = [
         description: "Spice up your daal with Pushp Dal Fry Masala. Spicy and flavourful, this premix is a unique combination of all necessary spices best used to temper or fry your dal making Dal Fry quick and delicious.",
         "available": ["Rs 5 (7g) | 50 g | 100g"],
         small_text : 'without onion and garlic',
-        // category:'QUICK FRY',
+        category:'QUICK FRY',
         spice : 'Dal Fry Masala',
     },
     {

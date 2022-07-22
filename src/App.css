@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&family=Playfair+Display&display=swap');
 .App {
   text-align: center;
@@ -46,7 +46,13 @@ body{
   padding:0;
   overflow-x: hidden; 
 }
-
+@media screen and (min-width:200px) and (max-width:1200px) {
+  body{
+    margin:0;
+    padding:0;
+    overflow-x: hidden; 
+  }
+}
 
 
 

@@ -4,9 +4,7 @@
     flex-flow: row  wrap;
     justify-content: space-evenly;
   }
-  h1{
-    letter-spacing: 0.2rem;
-  }
+  
   .item_container{
     margin-top: 100px;
   }
@@ -65,5 +63,30 @@
  .card{
   border: none;
  }
- 
+ @media screen and (min-width:200px) and (max-width:920px){
+  .flex-containerr > div {
+    margin: 32px;
+  }
+  .flex-containerr > div img {
+    margin-top: 12px;
+  }
+  .flex-containerr{
+    margin-top: -80px;
+  }
+  .pusph_category_background_image{
+    object-fit: contain;
+   
+  
+   
+  }
+  .pushp_category-h1{
+    margin-top: -50px;
+    padding-bottom:50px;
+    text-align: center;
+  }
+  .pushp_category-h1 h1{
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif; 
+  }
+ }
  

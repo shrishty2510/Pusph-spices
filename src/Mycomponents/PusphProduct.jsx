@@ -19,10 +19,10 @@ const PusphProduct = () => {
     return (
         <>
             <section>
-                <div className="background_image"> <img src="https://pushpmasale.com/wp-content/uploads/2020/01/product_header_28_01_20.jpg" alt="bg_image" height='500' width='100%' /> </div>
+                <div className="background_image"> <img src="https://pushpmasale.com/wp-content/uploads/2020/01/product_header_28_01_20.jpg" alt="bg_image" height='500' width='100%' style={{objectFit:'contain'}} /> </div>
                 <main >
                     <div className="item_container" >
-                        <div data-aos="zoom-in"> <h2 style={{ fontFamily: "Playfair Display", }} className='text-grey text-center'>{category_name.toUpperCase()}</h2></div>
+                        <div data-aos="zoom-in"> <h2  style={{ fontFamily:" 'Ibarra Real Nova', serif", }}className='text-grey text-center'>{category_name.toUpperCase()}</h2></div>
                         <hr className='my-3 ' style={{
                             color: 'rgb(206 65 65)',
                             width: '200px',
@@ -32,7 +32,7 @@ const PusphProduct = () => {
                         <div className="row mt-5" >
                             {Categories.filter(product => product.category === category_name.toUpperCase()).map(filteredItem => (
                                 <>
-                                    <div className="col-md-4" key={filteredItem.id} data-aos="fade-down" data-aos-easing="ease-in-out">
+                                    <div className="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-12"  key={filteredItem.id} data-aos="fade-down" data-aos-easing="ease-in-out">
                                         <div className="card mb-5 ">
                                             <div className="card_img text-center">
                                                 <Link to={`/product_page/pusph_masale/${filteredItem.spice}/${filteredItem.id}`} > <img src={filteredItem.image} width='170' height='170' alt="product_image" /></Link>

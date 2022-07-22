@@ -39,7 +39,7 @@ export const Header1 = () => {
                            Products
                         </NavLink>
                         <ul className="dropdown-menu" aria-labelledby="navbarDropdown" style={{border:'none',}}>
-                           <li className=''><Link className="dropdown-item" to="/pusph_category">Pusph Masale</Link>
+                           <li className=''><Link className="dropdown-item" to="/pushp_category">Pusph Masale</Link>
                            </li>
                            <li  className=""><Link className="dropdown-item" to={`/pusph_product/${category_name1}/`} style={{border:'none',}} >Ctc Spices</Link></li>
                            <li  className=""><Link className="dropdown-item" style={{border:'none',}} to={`/pusph_product/${category_name2}/`}>Blended Spices</Link></li>

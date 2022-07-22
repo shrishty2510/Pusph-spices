@@ -3,6 +3,7 @@ import pic2 from "../images/product images/pusphmasale/ctc_coriander_powder.png"
 import pic3 from "../images/product images/pusphmasale/ctc_tumeric_powder.png"
 import pic4 from "../images/product images/pusphmasale/ctc_raw_mango.png"
 import pic5 from "../images/product images/pusphmasale/blended_chat_masala.jpg"
+import pic6 from "../images/product images/pusphmasale/Tomato Soup Masala.png"
 
 const categories = [
     {
@@ -137,7 +138,7 @@ const categories = [
     {
         id: 13,
         image: "https://pushpmasale.com/wp-content/uploads/2019/10/achar_masala.jpg",
-        category: "BLENDED SPICES",
+        category: "CTC SPICES",
         spice: "Achar Masala"
     },
     {
@@ -199,6 +200,12 @@ const categories = [
         image: "https://pushpmasale.com/wp-content/uploads/2019/10/tea_masala.jpg",
         category: "BLENDED SPICES",
         spice: "Tea Masala"
+    },
+    {
+        id: 32,
+        image: pic6,
+        category: "CTC SPICES",
+        spice: "Tomato Soup Masala"
     },
     
 ]
