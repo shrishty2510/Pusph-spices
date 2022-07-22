@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Pusph-spices/static/css/main.66ff8af7.css",
-    "main.js": "/Pusph-spices/static/js/main.85503099.js",
+    "main.js": "/Pusph-spices/static/js/main.d758a3a9.js",
     "static/js/787.bea028de.chunk.js": "/Pusph-spices/static/js/787.bea028de.chunk.js",
     "static/media/Coriander Powder.png": "/Pusph-spices/static/media/Coriander Powder.a1162dca38aa456eee07.png",
     "static/media/Chilli Powder.png": "/Pusph-spices/static/media/Chilli Powder.d059f6992f5316da33ad.png",
@@ -25,11 +25,11 @@
     "static/media/ctc_coriander_powder.png": "/Pusph-spices/static/media/ctc_coriander_powder.f61b2febc1415dfc4f13.png",
     "index.html": "/Pusph-spices/index.html",
     "main.66ff8af7.css.map": "/Pusph-spices/static/css/main.66ff8af7.css.map",
-    "main.85503099.js.map": "/Pusph-spices/static/js/main.85503099.js.map",
+    "main.d758a3a9.js.map": "/Pusph-spices/static/js/main.d758a3a9.js.map",
     "787.bea028de.chunk.js.map": "/Pusph-spices/static/js/787.bea028de.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.66ff8af7.css",
-    "static/js/main.85503099.js"
+    "static/js/main.d758a3a9.js"
   ]
 }
