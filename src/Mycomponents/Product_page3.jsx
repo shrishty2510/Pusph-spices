@@ -45,7 +45,7 @@ export const Product_page3 = () => {
                         margin: '15px 0px',
                         fontFamily:'poppins',
                       }}>
-                      <div data-aos="fade-left"><p style={{ fontSize: '45px', fontWeight: 'bold' ,}}>{product_name} {filteredItem.small_text? <p className='h6 text-danger' style={{letterSpacing:'0.1rem', fontFamily:'arial'}}>({filteredItem.small_text})</p>:null}</p></div>
+                      <div data-aos="fade-left"><p style={{  textShadow:"3px 3px 3px grey", fontSize: '45px', fontWeight: 'bold' ,}}>{product_name} {filteredItem.small_text? <p className='h6 text-danger' style={{letterSpacing:'0.1rem', fontFamily:'arial',textShadow:"none"}}>({filteredItem.small_text})</p>:null}</p></div>
                       
                       <div className="usage">
                         <div><p className='h4'>Usage</p></div>
@@ -73,8 +73,8 @@ export const Product_page3 = () => {
                           fontSize:'15px',
                           fontFamily: 'arial',
                         }}>
-                          <li>{filteredItem.available[0]}</li>
-                          <li>{filteredItem.available[1]}</li>
+                          <li className='text-danger'>{filteredItem.available[0]}</li>
+                          <li className='text-danger'>{filteredItem.available[1]}</li>
                         </div>
 
                       </div>

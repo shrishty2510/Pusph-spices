@@ -4,7 +4,7 @@ import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 import { Link } from "react-router-dom";
 
-import categories from './js/quickfry_data'
+import categories from './js/munimji_data'
 const options = {
     responsive: {
         0: {
@@ -25,7 +25,7 @@ const options = {
         }
     },
 };
-export class OwlDemo extends Component {
+export class OwlDemo2 extends Component {
     
 
     render() {
@@ -35,8 +35,8 @@ export class OwlDemo extends Component {
             <>
                 <div class='container-fluid' my-3 >
                     <div className="row title" style={{ marginBottom: "20px" }} >
-                        <div class="col-sm-12 h3 text-center" style={{ fontFamily: 'Ibarra Real Nova',fontWeight:'bolder', }}>
-                        Spices You May Like
+                        <div class="col-sm-12 h3 text-center" style={{ fontFamily: 'Ibarra Real Nova',fontWeight:'bolder', letterSpacing:'0.2rem' }}>
+                        More From Munmji Brand
                             <hr className='my-3 ' style={{
                                 color: 'rgb(206 65 65)',
                                 width: '350px',
@@ -53,7 +53,8 @@ export class OwlDemo extends Component {
                             <>
                                 <div className="product-owl-carousel" >
                                     <div className="">
-                                        <Link to={`/product_page/quick_fry/${filteredItem.spice}/${filteredItem.id}`}> <img src={filteredItem.image} alt="product_image" /></Link>
+                                    
+                                        <Link to={`/product_page/munimji_masale/${filteredItem.spice}/${filteredItem.id}`}> <img src={filteredItem.image} alt="product_image" /></Link>
 
                                         <h6 style={{ marginLeft: '65px' }} className='text-danger my-2 '>{filteredItem.spice}</h6>
                                     </div>
@@ -66,10 +67,11 @@ export class OwlDemo extends Component {
                     </OwlCarousel> 
                    
                 </div>
+               
             </>
         )
     }
 }
 
 
-export default OwlDemo;
+export default OwlDemo2;

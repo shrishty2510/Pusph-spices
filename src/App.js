@@ -29,7 +29,7 @@ function App() {
           <Route  path='/contact' element={< Contact />}></Route>
           <Route  path='/pushp_category' element={< Pusphcategory />}></Route>
           <Route  path='/pushp_product/:category_name' element={< PusphProduct />}></Route>
-          <Route  path='/product_page/pusph_masale/:product_name/:product_id' element={< Product_page />}></Route>
+          <Route  path='/product_page/pushp_masale/:product_name/:product_id' element={< Product_page />}></Route>
           <Route  path='/product_page/munimji_masale/:product_name/:product_id' element={< Product_page2 />}></Route>
           <Route  path='/product_page/quick_fry/:product_name/:product_id' element={< Product_page3 />}></Route>
           <Route  path='/munimji_masale' element={< Munimjimasale />}></Route>

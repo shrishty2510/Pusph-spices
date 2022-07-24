@@ -1,7 +1,10 @@
 
 .product-owl-carousel div img{
    object-fit: contain;
+
 }
+
+
 
 @media screen and (min-width:498px) and (max-width:600px){
     .product-owl-carousel div {

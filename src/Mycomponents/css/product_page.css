@@ -58,9 +58,9 @@
     min-width: 50px;
 }
 
-.product_info .usage .h4 {
+/* .product_info .usage .h4 {
     text-shadow:  0.5px  1px rgb(6, 5, 5);
-}
+} */
 @media screen and (min-width:840px) and (max-width:992px){
     .product_container .product_info{
 

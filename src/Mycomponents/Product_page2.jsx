@@ -6,6 +6,7 @@ import AccordionDetails from '@mui/material/AccordionDetails';
 import Typography from '@mui/material/Typography';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import './css/product_page.css'
+import OwlDemo2 from "./ProductSlider2";
 import Items from './js/munimji_data.js'
 
 
@@ -47,7 +48,7 @@ export const Product_page2 = () => {
                         margin: '15px 0px',
                         fontFamily:'poppins',
                       }}>
-                      <div data-aos="fade-left"><p  style={{ fontSize: '45px', fontWeight: 'bold' }}>{product_name}</p></div>
+                      <div data-aos="fade-left"><p  style={{  textShadow:"3px 3px 3px grey", fontSize: '45px', fontWeight: 'bold' }}>{product_name}</p></div>
                       <div className="usage">
                         <div><p className='h4'>Usage</p></div>
                         <p  style={{
@@ -123,8 +124,8 @@ export const Product_page2 = () => {
                           fontSize:'15px',
                           fontFamily: 'arial',
                         }}>
-                          <li>{filteredItem.available[0]}</li>
-                          <li>{filteredItem.available[1]}</li>
+                          <li className='text-danger'>{filteredItem.available[0]}</li>
+                          <li className='text-danger'>{filteredItem.available[1]}</li>
                         </div>
 
                       </div>
@@ -132,6 +133,7 @@ export const Product_page2 = () => {
                       <div class="hrline"></div>
                     </div>
                   </div>
+                  <div><OwlDemo2 category_name={filteredItem.category} spice={filteredItem.spice}  /></div>
                 </>
               ))
               }

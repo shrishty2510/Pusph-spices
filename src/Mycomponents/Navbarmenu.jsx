@@ -28,14 +28,14 @@ export const Navbarmenu = () => {
            <li><NavLink  className="hover-underline-animation" to="/about">About</NavLink> </li>
            <li>
             <label for="btn-1" className="show">Products +</label>
-            <NavLink   className="hover-underline-animation  " to="">Products</NavLink> 
+            <NavLink   className="hover-underline-animation  " to="#">Products</NavLink> 
             <input type="checkbox" name="" id="btn-1" />
-            <ul>
-                <li>
+            <ul className='second-ul'>
+                <li className='second-li'>
                     <label for="btn-2" className="show">PUSHP MASALE +</label>
                     <NavLink to="" >PUSHP MASALE <span className="fa fa-plus"></span></NavLink> 
                     <input type="checkbox" name="" id="btn-2" />
-                    <ul>
+                    <ul className='third-ul'>
                         <li><NavLink  to={`/pushp_product/${category_name1}/`} >CTC SPICES</NavLink> </li>
                         <li><NavLink  to={`/pushp_product/${category_name2}/`}>BLENDED SPICES</NavLink> </li>
                         <li><NavLink  to={`/pushp_product/${category_name3}/`}>PURE SPICES</NavLink> </li>
@@ -49,7 +49,9 @@ export const Navbarmenu = () => {
                 
             </ul>
           </li> 
+           <li><NavLink  className="hover-underline-animation" to="">Recipes</NavLink> </li>
            <li><NavLink  className="hover-underline-animation" to="">Buy Online</NavLink> </li>
+           <li><NavLink  className="hover-underline-animation" to="">Careers</NavLink> </li>
            <li><NavLink  className="hover-underline-animation" to="/contact">Contact Us</NavLink> </li>
         </ul>
     </nav>

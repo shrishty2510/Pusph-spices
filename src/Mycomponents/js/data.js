@@ -2,6 +2,7 @@ import pic2 from "../images/product images/pusphmasale/ctc_coriander_powder.png"
 import pic3 from "../images/product images/pusphmasale/ctc_tumeric_powder.png"
 import pic4 from "../images/product images/pusphmasale/ctc_raw_mango.png"
 import pic5 from "../images/product images/pusphmasale/blended_chat_masala.jpg"
+import pic6 from "../images/product images/pusphmasale/ctc_chilli_powder.png"
 const Items = [
 
     {
@@ -31,7 +32,7 @@ const Items = [
     },
     {
         id: 4,
-        image: "https://pushpmasale.com/wp-content/uploads/2019/10/chilli_powder_patna_quality.jpg",
+        image: pic6,
         description: "Use Pushp Chilli Powder (Patna Quality) to add a dash of pungency to the overall flavour of your dishes. A perfect blend of ingredients goes into this chilli powder including varieties of red chilli assembled form different regions of India to provide you with the perfect blend of chill powder with the accurate amount of texture, colour and spice.",
         "available": ["50g | 100g | 200g | 500g", "1kg | 5kg | 10kg"],
         category: "CTC SPICES",

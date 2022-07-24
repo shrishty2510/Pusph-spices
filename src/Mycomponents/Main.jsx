@@ -3,6 +3,7 @@ import { useEffect } from 'react';
 import Tooltip from '@mui/material/Tooltip';
 import { Owldemo } from "./Owldemo";
 import OwlDemo1 from "./ProductSlider";
+import { Link } from "react-router-dom";
 import DownloadSharpIcon from '@mui/icons-material/DownloadSharp';
 import './css/main.css';
 
@@ -32,6 +33,7 @@ export const Main = () => {
     }, [])
     return (
         <>
+         
 
             <section className="main">
                 <section >
@@ -69,7 +71,7 @@ export const Main = () => {
                     </div>
                 </section>
                 <section className='container-fluid'>
-                    <div className="flex-container  my-4" style={flex}>
+                    <div className="flex-container  my-4 mb-5" style={flex}>
                         <div className=''> <img src="https://pushpmasale.com/wp-content/uploads/elementor/thumbs/No_synthetic_colour_and_preservatives-oglulfcokk2le7da1rxrp99vs342a0lh595qqdzmos.png" alt="item1" />
                             <h6 className='text-center '>No synthetic colour and preservatives</h6>
                         </div>
@@ -84,6 +86,7 @@ export const Main = () => {
                         </div>
                     </div>
                 </section>
+               
                 <section class="product" >
                     <div data-aos="zoom-in" data-aos-offset="100" data-aos-duration="1000"> <Owldemo /></div>
                     
@@ -91,10 +94,11 @@ export const Main = () => {
                    
                    
                     <div className="container" >
-                        <div className="button my-4" data-aos="flip-down">View Products</div><br></br>
+                        <div className="button my-4" data-aos="flip-down"><Link to="/pushp_category"  class=" d-block  text-decoration-none  text-light">View products</Link></div><br></br>
                         
                     </div>
                 </section>
+               
                 <section>
                 <div data-aos="zoom-in" ><h2 className='text-center my-4' style={{ letterSpacing: "0.1rem" }}>Our Social Media Library</h2></div>
                         <hr className='my-4' style={hrstyle1} />
@@ -149,12 +153,12 @@ export const Main = () => {
                             <div className="row">
                                 <div className="col-lg-6 col-sm-12 col-md-6 col-12 text-center" data-aos="fade-down">
                                     <figure class="wp-caption ">
-                                        <img width="300" height="300" src="https://pushpmasale.com/wp-content/uploads/2019/12/9001_pushp-300x300.png " class="attachment-medium size-medium py-4" alt="" />
+                                        <img width="300" height="280" src="https://pushpmasale.com/wp-content/uploads/2019/12/9001_pushp-300x300.png " class="attachment-medium size-medium py-4" alt="" />
 
                                         <figcaption class="widget-image-caption wp-caption-text text-center h4 py-4">AN ISO 9001:2015 Certified Company</figcaption></figure>
                                 </div>
                                 <div className="col-lg-6 col-sm-12 col-md-6 col-12  text-center" data-aos="fade-down">
-                                    <figure class="wp-caption "><img width="300" height="300" src="https://pushpmasale.com/wp-content/uploads/2019/12/22000_pushp-300x300.png" class="attachment-medium size-medium py-4" alt="" />
+                                    <figure class="wp-caption "><img width="300" height="280" src="https://pushpmasale.com/wp-content/uploads/2019/12/22000_pushp-300x300.png" class="attachment-medium size-medium py-4" alt="" />
                                     <figcaption class="widget-image-caption wp-caption-text text-center h4 py-4"> <p>AN ISO 22000 Certified Company</p> </figcaption></figure>
                                 </div>
                             </div>
@@ -164,11 +168,10 @@ export const Main = () => {
 
                 <section>
                     <div id="con4">
-                        <div className="row " style={{height:'50px'}} data-aos="flip-right">
-                            <div className='col-sm-12 p-4 text-center ' style={{ color: 'whitesmoke', }}><h1 >Download our E-Catalouge</h1>
-                            <button className="button1" >Download Now <DownloadSharpIcon sx={{ fontSize: "30px" }}></DownloadSharpIcon> </button>
-                            <marquee className=" marquee_div mt-5" behavior="scroll" direction="right" scrollamount='9' >#FLAVOUR YOUR FOOD ❤️ DELIGHT YOUR SENSES!</marquee>
-                            </div>
+                        <div className="row" data-aos="flip-right">
+                            <div className='col-sm-12 col-lg-6 text-center mt-3' style={{ color: 'whitesmoke', cursor:'pointer' }}><h1 >Download our E-Catalouge <DownloadSharpIcon sx={{ fontSize: "40px",}}></DownloadSharpIcon></h1></div>
+                            <marquee className="marquee_div" behavior="scroll" direction="left" scrollamount='9' >PURITY THAT'S ❤️ FOREVER!</marquee>
+                            
                            
                         </div>    
                             

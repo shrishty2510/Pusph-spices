@@ -6,6 +6,7 @@ import AccordionDetails from '@mui/material/AccordionDetails';
 import Typography from '@mui/material/Typography';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import './css/product_page.css'
+import OwlDemo3 from "./ProductSlider3";
 import Items from './js/data.js'
 
 
@@ -47,7 +48,7 @@ export const Product_page = () => {
                         margin: '15px 0px',
                         fontFamily:'poppins',
                       }}>
-                      <div data-aos="fade-left"><h1  style={{ fontSize: '45px', fontWeight: 'bold' }}>{product_name}</h1></div>
+                      <div data-aos="fade-left"><h1  style={{  textShadow:"3px 3px 3px grey", fontSize: '45px', fontWeight: 'bold' }}>{product_name}</h1></div>
                       <div className="usage">
                         <div><p style={{fontSize:'30px'}} >Usage</p></div>
                         <p className='h4' style={{
@@ -151,6 +152,7 @@ export const Product_page = () => {
                       <div class="hrline"></div>
                     </div>
                   </div>
+                  <div><OwlDemo3 category_name={filteredItem.category} spice={filteredItem.spice}  /></div>
                 </>
               ))
               }

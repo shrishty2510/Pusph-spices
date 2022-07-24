@@ -98,11 +98,11 @@ export const Pusphcategory = () => {
                     <div className="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-12" key={index} data-aos="fade-down"  data-aos-easing="ease-in-out">
                       <div className="card mb-5 ">
                         <div className="card_img text-center">
-                         <Link  to={`/product_page/pusph_masale/${spice}/${id}`} > <img src={image}  width='170' height='170' alt="product_image" /></Link>
+                         <Link  to={`/product_page/pushp_masale/${spice}/${id}`} > <img src={image}  width='170' height='170' alt="product_image" /></Link>
                         </div>
                         <div className="card_info my-4">
                           <div><h6 className="text-center text-muted">{category}</h6></div>
-                          <div className='text-center'><Link className="category-link h4 text-decoration-none" to={`/product_page/pusph_masale/${spice}/${id}`}>{spice}</Link></div>
+                          <div className='text-center'><Link className="category-link h4 text-decoration-none" to={`/product_page/pushp_masale/${spice}/${id}`}>{spice}</Link></div>
 
                         </div>
                       </div>

@@ -2,9 +2,11 @@ import React from 'react';
 import { useEffect } from 'react';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
+import SendRoundedIcon from '@mui/icons-material/SendRounded';
 import {useWindowScroll} from "react-use";
-import pic3 from "./images/product images/munimji/Garam Masala.png"
-import pic4 from "./images/product images/quickfry/Shahi Panner QF.jpg"
+import pic1 from "./images/product images/quickfry/pasta_masala.png"
+import pic2 from "./images/product images/quickfry/spice_booster_masala.png"
+import pic3 from './images/product images/owldemo/QF Dal Tadka.png';
 import './css/footer.css';
 // import Style from 'style-it';
 
@@ -19,10 +21,10 @@ export const Footer1 = () => {
     }
     let pstyle = {
         fontSize: '13px',
-        padding: '0px 0px 50px 0px',
         color: 'darkgrey',
         letterSpacing: '0.1rem',
         textAlign:'justify',
+        paddingBottom:'25px',
 
     }
    
@@ -99,24 +101,25 @@ export const Footer1 = () => {
                         <div class=" mb-4 mb-md-0  footer-flex-item">
                             <h4 class="footer-heading mb-4">LATEST PRODUCTS</h4>
                             <hr className='my-4'  />
-                            <div class=" mb-4 d-flex ">
-                                <Link class="img mr-4  rounded" to="/pushp_category" ><img src="https://pushpmasale.com/wp-content/uploads/2019/10/paneer_masala.jpg" alt="" width="72px"  className='px-2 rounded' /></Link>
+                            <div class="mb-4 d-flex">
+                                <Link class="img mr-4  rounded" to={`/product_page/quick_fry/Dal Tadka Masala/1`} ><img src={pic3} alt="" width="72px" className='px-2 rounded' /></Link>
                                 <div class="text">
-                                    <p class="heading fintro">Checkout all the Pushp masale category and many more items.</p>
+                                    <p class="heading fintro">Checkout our new product dal tadka masala &  more items!</p>
+                                </div>
+                            </div>
+                            <div class=" mb-4 d-flex ">
+                                <Link class="img mr-4  rounded" to="/quickfry" ><img src={pic2} alt="" width="72px"  className='px-2 rounded' /></Link>
+                                <div class="text">
+                                    <p class="heading fintro">Checkout our amazing spice booster masala & more items!</p>
                                 </div>
                             </div>
                             <div class=" mb-4 d-flex">
-                                <Link class="img mr-4  rounded" to="/munimji_masale" ><img src={pic3} alt="" width="72px" className='px-2 rounded' /></Link>
+                                <Link class="img mr-4  rounded" to="/quickfry" ><img src={pic1} alt="" width="72px" className='px-2 rounded' /></Link>
                                 <div class="text">
-                                    <p class="heading fintro">Checkout all the Munimji spices and many more items.</p>
+                                    <p class="heading fintro">Checkout our amazing pasta masala & more items!</p>
                                 </div>
                             </div>
-                            <div class="mb-4 d-flex">
-                                <Link class="img mr-4  rounded" to="/quickfry" ><img src={pic4} alt="" width="72px" className='px-2 rounded' /></Link>
-                                <div class="text">
-                                    <p class="heading fintro">Checkout all the Quick fry Spices and many more items.</p>
-                                </div>
-                            </div>
+                           
                         </div>
 
                        
@@ -128,6 +131,7 @@ export const Footer1 = () => {
                                     <li><Link to="/"   class="  d-block text-decoration-none ">Home</Link></li>
                                     <li><Link to="/about"  class="  d-block  text-decoration-none  ">About</Link></li>
                                     <li><Link to="/pushp_category"   class=" d-block  text-decoration-none  ">Products</Link></li>
+                                    <li><Link to=""  class=" d-block  text-decoration-none  ">Recipes</Link></li>
                                     <li><Link to="/about"  class="  d-block  text-decoration-none  ">Buy Online</Link></li>
                                     <li><Link to="/contact"  class="d-block text-decoration-none   ">Contact</Link></li>
                                 
@@ -144,10 +148,17 @@ export const Footer1 = () => {
                             <div class="block-23 mb-3">
 
                                 < p style={pstyle}><i class="fa fa-home" style={icon} aria-hidden="true"></i>
-                                    Head Off: 19, Mahavar Nagar, Annapurna Road,<span style={{ padding: '0px 0px 0px 16px', marginTop:'20px', fontSize: '13px', color: 'darkgrey' }}>
-                                    Indore-452009 (M.P)</span></p>
+                                    Head Off: 19, Mahavar Nagar, Annapurna&nbsp;Road, Indore-452009 (M.P)</p>
                                 <p style={pstyle} ><i class="fa fa-phone" style={icon} aria-hidden="true"></i>+91 0731 2481134</p>
                                 <p style={pstyle} ><i class="fa fa-envelope" style={icon} aria-hidden="true"></i>info@pushpmasale.com</p>
+                                <div className='d-flex footer-subscribe-div'>
+                                    
+                                <input  type="email" style={{ padding:' 5px 20px', width:'260px', display:'inline'}} class="my-2" placeholder='Email Address' />
+                                <button  type ="submit"className='footer-subscribe my-2'><SendRoundedIcon/></button>
+                                     
+                                 
+                                 
+                                </div>
     
                             </div>
                         </div>

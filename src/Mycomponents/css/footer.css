@@ -116,6 +116,47 @@ footer .footer-flex-item hr{
 footer  .quick-link{
     padding-left: 60px;
 }
+.footer-subscribe-div{
+   
+    padding: 0px 10px;
+   
+}
+.footer-subscribe-div input{
+    border-radius: 12px 34px 4px 4px;
+    border-right: none;
+    width: 340px;
+    height: 50px;
+    background-color: whitesmoke;
+    border: none;
+}
+
+.footer-subscribe{
+    
+    display: block;
+    padding: 8px 15px;
+    width: 114px;
+    height: 50px;
+    text-align: center;
+    border: 1px ridge rgba(0, 0, 0, 0.479);
+    color:white;
+    font-weight: bold;
+    /* background-color: #fcf7f714; */
+    background-color:  rgb(210, 52, 52);
+    border-radius: 4px;
+    border-radius: 5px 4px 4px 30px;
+  
+    letter-spacing: 0.1rem;
+    box-shadow: inset 0 0 0 0 black;
+    transition: color .3s ease-in-out, box-shadow .5s ease-in-out;
+    border-left:none;
+}
+
+
+.footer-subscribe:hover{
+    box-shadow: inset 200px 0px 0px 0px white;
+    color: #e31e24;
+    
+}
 
 @media screen  and (min-width:640px) and (max-width:990px){  
     .icon-flex{
