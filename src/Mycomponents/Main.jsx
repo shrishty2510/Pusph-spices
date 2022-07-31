@@ -100,9 +100,6 @@ export const Main = () => {
                 </section>
                
                 <section>
-                <div data-aos="zoom-in" ><h2 className='text-center my-4' style={{ letterSpacing: "0.1rem" }}>Our Social Media Library</h2></div>
-                        <hr className='my-4' style={hrstyle1} />
-
                     <div className="container ">
                         <div className="row">
                             <div className=" col-lg-6 col-sm-12  col-12 col-md-12  my-4 social-icon-div">

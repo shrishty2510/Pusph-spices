@@ -49,7 +49,14 @@ export const Navbarmenu = () => {
                 
             </ul>
           </li> 
-           <li><NavLink  className="hover-underline-animation" to="">Recipes</NavLink> </li>
+           <li>
+              <label for="btn-3" className="show">Blog +</label>
+              <NavLink  className="hover-underline-animation" to="">Blog</NavLink> 
+              <input type="checkbox" name="" id="btn-3" />
+              <ul className='fourth-ul'>
+                 <li><NavLink  to="/receipe/videos" >VIDEOS</NavLink> </li>
+              </ul>
+            </li>
            <li><NavLink  className="hover-underline-animation" to="">Buy Online</NavLink> </li>
            <li><NavLink  className="hover-underline-animation" to="">Careers</NavLink> </li>
            <li><NavLink  className="hover-underline-animation" to="/contact">Contact Us</NavLink> </li>

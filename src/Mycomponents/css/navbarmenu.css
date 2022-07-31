@@ -98,28 +98,6 @@ nav ul li a:hover{
   nav ul ul ul{
     border-top: none;
   }
-  nav .second-ul li a ,  .third-ul li a{
-    font-size: 15px;
-    letter-spacing: 0.1rem;
-  }
-  nav .main-ul li:hover >  .second-ul{
-    top:96px;
-    left:100px;
-   
-    visibility: visible;
-    color: black;
-    opacity: 0.9;
-    
-   
-  }
-  nav .main-ul .second-ul .second-li:hover >  .third-ul{
-    top:96px;
-    left:100px;
-    opacity: 0.9;
-    visibility: visible;
-    color: black;
-    
-  }
   nav ul ul li{
     position: relative;
     margin: 0;
@@ -143,6 +121,40 @@ nav ul li a:hover{
     line-height: 39px;
     
   }
+  nav .second-ul li a ,  .third-ul li a ,.fourth-ul li a{
+    font-size: 15px;
+    letter-spacing: 0.1rem;
+  }
+  nav .main-ul li:hover >  .second-ul{
+    top:96px;
+    left:100px;
+   
+    visibility: visible;
+    color: black;
+    opacity: 0.9;
+    
+   
+  }
+  nav .main-ul .second-ul .second-li:hover >  .third-ul{
+    top:96px;
+    left:100px;
+    opacity: 0.9;
+    visibility: visible;
+    color: black;
+    
+  }
+  nav .main-ul li:hover >  .fourth-ul{
+    top:96px;
+    left:190px;
+    opacity: 0.9;
+    visibility: visible;
+    color: black;
+    
+  }
+  nav .main-ul .fourth-ul li{
+    width:180px;
+  }
+ 
   nav .main-ul ul .third-ul li {
     position: relative;
     top:-97px;

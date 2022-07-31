@@ -21,7 +21,7 @@ font-family: 'Roboto', sans-serif; */
    outline: 0; 
    box-shadow: none; 
 }
-.about-span:hover,:active{
+.about-span:hover{
       color:whitesmoke;
 }
 .accordion-item:last-of-type .accordion-button.collapsed{

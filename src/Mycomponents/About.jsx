@@ -142,11 +142,11 @@ export const About = () => {
                         <div class="col-sm-12 text-center col-md-5  col-lg-3 offset-lg-0">
                             <img class="img-fluid " src="https://pushpmasale.com/wp-content/uploads/2019/12/banner-3.png" data-aos="fade-down" alt="" style={{ marginTop: '80px', }} />
                         </div>
-                    </div>
+                    </div><br/>
                     <div class="row">
                         <div class="col-sm-12 text-center col-md-5 col-lg-3 float-start">
 
-                            <img class="img-fluid " src="https://pushpmasale.com/wp-content/uploads/2019/10/sec-img-8.png" width="250px" data-aos="fade-down" alt="" style={{ marginTop: '60px', }} />
+                            <img class="img-fluid " src="https://pushpmasale.com/wp-content/uploads/2019/10/sec-img-8.png" width="250px" data-aos="fade-down" alt="" style={{ marginTop: '80px', }} />
                         </div>
                         <div class="col-sm-12 col-xs-12 col-md-7 col-lg-9">
                             <div data-aos="flip-down">
@@ -164,11 +164,6 @@ export const About = () => {
                                     Pushp Spices continues to hold the forte in its domain of processing spices, masala powders
                                     and home food solutions.</p>
                             </div>
-
-                        </div>
-                    </div>
-                    <div class="row my-2">
-                        <div class="col-lg-12 col-md-12 col-sm-12">
                             <div class="content2">
                                 <p align="justify" class="text-lead">
                                     The blends and spices made <span className='text-danger'>at Pushp Masale</span> contain no
@@ -178,8 +173,10 @@ export const About = () => {
                                         class='text-danger'> top-quality </span>
                                     spices and blends to meet your every need.</p>
                             </div>
+
                         </div>
                     </div>
+                
                     <div class="row my-3">
 
                         <div class="col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-8">

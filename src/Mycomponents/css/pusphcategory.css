@@ -44,14 +44,14 @@
     
  
 
- }
- #active {
+ } 
+  #active {
   background-color: crimson;
   color: white;
   font-weight: bold;
     
- } 
- 
+ }  
+  
  
  .card .card_img img{
   object-fit: contain;

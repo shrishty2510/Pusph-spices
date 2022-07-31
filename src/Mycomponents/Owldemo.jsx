@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
-import pic1 from './images/product images/owldemo/Hing 100g.jpg';
+import pic1 from './images/product images/owldemo/Hing Mockup 100g.png';
 import pic2 from './images/product images/owldemo/QF Dal Tadka.png';
 import pic3 from './images/product images/owldemo/QF Sabji Masala.png';
 import pic4 from './images/product images/owldemo/QF Shahi Sabji Masala.png';
@@ -75,7 +75,7 @@ export class Owldemo extends Component {
                         </div>
                         <div class="product-card">
                             <div class="product-image mb-3 ">
-                                <img src={pic1} class="product-thumb" alt="" />
+                                <img src={pic1} style={{ filter: "drop-shadow(5px 5px 5px #2C3333)" }}  class="product-thumb" alt="" />
                             </div>
                             <div className='hide text-center'><h6 class='text-center text-danger  ml-3  my-3  ' >SHAHI HING</h6></div>
 

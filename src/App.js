@@ -12,7 +12,8 @@ import  {Contact} from "./Mycomponents/Contact";
 import { BrowserRouter as Router, Route, Routes} from 'react-router-dom'
 import { Quickfry } from './Mycomponents/Quickfry';
 import PusphProduct from './Mycomponents/PusphProduct';
-import {Navbarmenu} from './Mycomponents/Navbarmenu'
+import {Navbarmenu} from './Mycomponents/Navbarmenu';
+import {Video} from './Mycomponents/Video'
 
 
 
@@ -34,6 +35,7 @@ function App() {
           <Route  path='/product_page/quick_fry/:product_name/:product_id' element={< Product_page3 />}></Route>
           <Route  path='/munimji_masale' element={< Munimjimasale />}></Route>
           <Route  path='/quickfry' element={< Quickfry />}></Route>
+          <Route  path='/receipe/videos' element={< Video />}></Route>
         </Routes>
         <Footer1 />
      </div>
