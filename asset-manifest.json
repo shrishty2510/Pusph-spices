@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Pusph-spices/static/css/main.9e7f6261.css",
-    "main.js": "/Pusph-spices/static/js/main.566c90dd.js",
+    "main.css": "/Pusph-spices/static/css/main.f864e7cb.css",
+    "main.js": "/Pusph-spices/static/js/main.c606866d.js",
     "static/js/787.bea028de.chunk.js": "/Pusph-spices/static/js/787.bea028de.chunk.js",
     "static/media/Poha Masala.png": "/Pusph-spices/static/media/Poha Masala.0ae7f6d3c2a347d5ba23.png",
     "static/media/Coriander Powder.png": "/Pusph-spices/static/media/Coriander Powder.a1162dca38aa456eee07.png",
@@ -17,6 +17,7 @@
     "static/media/Mango Powder.png": "/Pusph-spices/static/media/Mango Powder.2e5d5fc28f062af09074.png",
     "static/media/Achar masala.png": "/Pusph-spices/static/media/Achar masala.9ab11896b956f19256d9.png",
     "static/media/Tomato Soup Masala.png": "/Pusph-spices/static/media/Tomato Soup Masala.0d964e46753ab690482f.png",
+    "static/media/Hing Mockup 100g.png": "/Pusph-spices/static/media/Hing Mockup 100g.2d2aad2955693e07b8e4.png",
     "static/media/spice_booster_masala.png": "/Pusph-spices/static/media/spice_booster_masala.c88f68779e06560459a8.png",
     "static/media/pasta_masala.png": "/Pusph-spices/static/media/pasta_masala.ea6863a95f99398e03f8.png",
     "static/media/Sabji Masala QF.jpg": "/Pusph-spices/static/media/Sabji Masala QF.e71bfdb3dbf2ec59192c.jpg",
@@ -26,18 +27,17 @@
     "static/media/Shahi Sabji QF.jpg": "/Pusph-spices/static/media/Shahi Sabji QF.ca54cc5c659ad8efc3ea.jpg",
     "static/media/blended_chat_masala.jpg": "/Pusph-spices/static/media/blended_chat_masala.b5e061e4c1dfd44d24bc.jpg",
     "static/media/Shahi Panner QF.jpg": "/Pusph-spices/static/media/Shahi Panner QF.f270b41f077443b8c9bf.jpg",
-    "static/media/Hing 100g.jpg": "/Pusph-spices/static/media/Hing 100g.dc794df6e7ad9eba3d49.jpg",
     "static/media/ctc_chilli_powder.png": "/Pusph-spices/static/media/ctc_chilli_powder.5622bae6449cafce1005.png",
     "static/media/ctc_tumeric_powder.png": "/Pusph-spices/static/media/ctc_tumeric_powder.ea1bec85214b952e1893.png",
     "static/media/ctc_raw_mango.png": "/Pusph-spices/static/media/ctc_raw_mango.30bdd52e7767149d1faf.png",
     "static/media/ctc_coriander_powder.png": "/Pusph-spices/static/media/ctc_coriander_powder.f61b2febc1415dfc4f13.png",
     "index.html": "/Pusph-spices/index.html",
-    "main.9e7f6261.css.map": "/Pusph-spices/static/css/main.9e7f6261.css.map",
-    "main.566c90dd.js.map": "/Pusph-spices/static/js/main.566c90dd.js.map",
+    "main.f864e7cb.css.map": "/Pusph-spices/static/css/main.f864e7cb.css.map",
+    "main.c606866d.js.map": "/Pusph-spices/static/js/main.c606866d.js.map",
     "787.bea028de.chunk.js.map": "/Pusph-spices/static/js/787.bea028de.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9e7f6261.css",
-    "static/js/main.566c90dd.js"
+    "static/css/main.f864e7cb.css",
+    "static/js/main.c606866d.js"
   ]
 }
